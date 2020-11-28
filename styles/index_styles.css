@@ -1,6 +1,7 @@
 body {
     background-color: #fafafa;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
 }
 
 ul {
@@ -11,8 +12,8 @@ ul {
     background-color: white;
 }
 
-.language-switch {
-
+.language-button {
+    font-size: .8em;
 }
 
 .logo {
@@ -27,4 +28,12 @@ ul {
 .section-title {
     margin: 80px 0;
     text-align: center;
+}
+
+@media (max-width: 1000px){
+
+    .content {
+        margin: 5% 5% 0;
+    }
+
 }
