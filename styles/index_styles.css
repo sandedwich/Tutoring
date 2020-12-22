@@ -5,7 +5,11 @@ body {
 }
 
 ul {
-    margin: 40px 0 80px 0;
+    margin: 50px 0 0 0;
+}
+
+hr {
+    margin-top: 80px;
 }
 
 .navbar {
@@ -17,8 +21,20 @@ ul {
 }
 
 .logo {
-    font-family: 'Lobster', cursive;
-    font-size: 250%;
+    width: 10%;
+}
+
+.logo-text {
+    margin-left: 20px;
+    display: inline;
+}
+
+.first-nav {
+    margin-top: 40px;
+}
+
+.custom-nav {
+    margin-left: 20px;
 }
 
 .content {
